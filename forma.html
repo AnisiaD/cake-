@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title align="center"> <font color="dimgray", face="Palatino Linotype", size=4 > Отправляем Данные на сервер </font> </title>
+</head>
+
+<html>
+<body>
+<h3 align="center"> <font color="dimgray", face="Palatino Linotype", size=8 > Заявки на работу (Вакансии )  </font> </h3>
+<!--<form action="../../cgi-bin/form_action.py" method='get' target='_self'>-->
+<!--<form action="http://185.182.111.214:7628/cgi-bin/form_action.py" method='get' target='_self'>-->
+    <ul>
+        <li><a href="../new_projekt /index.html" target="_self"</a> <p align="center"> <font color="dimgray", face="Palatino Linotype", size="5"> Главная страница </font></p>
+            <li><a href="../new_projekt /table.html" target="_self" </a> <p align="center"> <font color="dimgray", face="Palatino Linotype", size="5">Наши партнеры</font></p>
+            <li><a href="../new_projekt /shrift.html" target="_self"</a> <p align="center"> <font color="dimgray", face="Palatino Linotype", size="5"> Сезонные предложения (Общая информация)</font></p>
+            <li><a href="../new_projekt /shrift.html#head2" target="_self" </a><p align="center"> <font color="dimgray", face="Palatino Linotype", size="5">Новинка 2024 !!! </font></p>
+            <li><a href="../new_projekt /data.html" target="_self"</a> <p align="center"> <font color="dimgray", face="Palatino Linotype", size="5">Сделайте у нас заказ </font></p>
+            <li><a href="../new_projekt /forma.html" target="_self" </a> <p align="center"> <font color="dimgray", face="Palatino Linotype", size="5"> <b>Оставьте у нас заявку на работу </b></font></p>
+             <li><a href="../new_projekt /zadacha.html" target="_self"</a> <p align="center"><font color="dimgray", face="Palatino Linotype", size="5">Личные контакты нашего директора </p>
+    </ul>
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <p align="center"> <font color="dimgray", face="Palatino Linotype", size=5 > Для поисковика:<input type="hidden"  name="q" value="search"> </font> </p>
+    <p align="center"> <font color="dimgray", face="Palatino Linotype", size=3 > Фамилия: <input type="Text" name="last_name" size=20  value="Kendel"> </font> </p>
+    <p align="center"> <font color="dimgray", face="Palatino Linotype", size=3 > Возраст: <input type="Number" name="age" size=20 value="0"> </font> </p>
+    <p align="center"> <font color="dimgray", face="Palatino Linotype", size=3 > Место проживания </font> 
+        <input type="Radio" name="place" value="Moscow">Москва
+        <input type="Radio" name="place" value="Nizhny" checked >Нижний
+    </p>
+
+    <p align="center"> <font color="dimgray", face="Palatino Linotype", size=3 > Стаж работы: </font> 
+        <input type="Checkbox" name="experience"  value="10" checked>Пекарем -10
+        <input type="Checkbox"  name="experience"   value="20" checked>Бариста -20
+        <input type="Checkbox" name="experience" value="30" checked>Официантом -15
+    </p>
+
+    <p align="center"> <font color="dimgray", face="Palatino Linotype", size=3 > Знание иностранных языков </font> 
+        <select name="languages">
+            <OPTION value="Владею свободно">Владею свободно</OPTION>
+            <OPTION value="Читаю и перевожу со словарем">Читаю и перевожу со словарем</OPTION>
+        </select>
+    </p>
+
+    <p align="center"> <font color="dimgray", face="Palatino Linotype", size=3 > Дополнительная информация: </font> 
+        <br>
+        <TEXTAREA cols=80 rows=4 name="textarea" >Для особенных комментариев</TEXTAREA>
+    </p>
+
+    <p align="center"> <font color="dimgray", face="Palatino Linotype", size=3 > Дата: <input type="date" name="user_date"  value='2024-11-6'> </font> </p>
+    <p align="center"> <font color="dimgray", face="Palatino Linotype", size=3 > Пароль: <input type="Password" name="password" size=9  value="123"> </font> </p>
+    <!--Все нижерасположенные фрагменты перемещать нельзя, редактировать можно-->
+    <p align="center"> <font color="dimgray", face="Palatino Linotype", size=3 > Название файла: <input type="Техт" name="000_file_name" value="сладкая жизнь 2.0 " size='30'> </font> </p>
+
+    <p align="center"> <font color="dimgray", face="Palatino Linotype", size=3 > Тип записи в файл:<select name="010_mode"> </font> 
+        <OPTION value="a">a - дозаписать в файл</OPTION>
+        <OPTION value="w">w - очисить файл и записать в файл</OPTION>
+    </select></p>
+
+    <input type="hidden" name="function"  value="page">
+    <input type="hidden" name="page_id"  value="3">
+
+    <p>
+        <input type="Reset"  name="Reset"  value="Обновить">
+        <input type="Submit" name="submit"  value="Отправить">
+    </p>
+
+</form>
+<pre>
